@@ -1,0 +1,142 @@
+/* Global style */
+*{
+    margin: 0;
+    padding: 0;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.red{
+    color: red;
+}
+/* Banner */
+/* .banner{
+    
+} */
+.banner-content{
+    margin: 50px auto;
+    max-width: 1320px;
+    height: 600px;
+    background-image: url("../images/Banner\ Image.png");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.banner-content .banner-subtitle{
+    color: aliceblue;
+    line-height: 95px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-content .banner-title{
+    color: aliceblue;
+    line-height: 95px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* offer */
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.offer-amount{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    color: red;
+    margin-bottom: 48px;
+}
+/* .offer .title{
+    
+} */
+.offer .subtitle{
+    color: red;
+    margin-bottom: 16px;
+}
+
+/* Midnight */
+.midnight{
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.midnight-content{
+    width: 50%;
+    margin: auto 50px;
+}
+.midnight-title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    color: aliceblue;
+}
+.midnight-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(188, 188, 188);
+}
+
+.midnight-btn{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: aliceblue;
+    background-color:rgba(0, 0, 0, 0.0);
+    border: none;
+}
+.midnight-image{
+    position: absolute;
+    right: 50px;
+}
+
+/* Address */
+.address{
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.address>h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.red-btn{
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: aliceblue;
+    border: none;
+    padding: 16px 32px;
+}
